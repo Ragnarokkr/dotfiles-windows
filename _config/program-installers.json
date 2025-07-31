@@ -1,0 +1,16 @@
+[
+    {
+        "Name": "Alternate File Shredder",
+        "Url": "https://www.alternate-tools.com/files/FileShredder.exe",
+        "FileName": "FileShredder.exe",
+        "InstallArgs": "/silent /norestart",
+        "InstallerType": "exe"
+    },
+    {
+        "Name": "LDC",
+        "Url": "https://github.com/ldc-developers/ldc/releases/download/v1.41.0/ldc2-1.41.0-windows-multilib.exe",
+        "FileName": "ldc2-1.41.0-windows-multilib.exe",
+        "InstallArgs": "/silent /norestart",
+        "InstallerType": "exe"
+    }
+]

@@ -1,0 +1,224 @@
+{
+    "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+    "CreationDate": "2025-07-28T10:52:33.822-00:00",
+    "Sources": [
+        {
+            "Packages": [
+                {
+                    "PackageIdentifier": "Microsoft.WindowsTerminal.Preview"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.PowerShell"
+                },
+                {
+                    "PackageIdentifier": "BiniSoft.WindowsFirewallControl"
+                },
+                {
+                    "PackageIdentifier": "Brave.Brave.Beta"
+                },
+                {
+                    "PackageIdentifier": "Zen-Team.Zen-Browser"
+                },
+                {
+                    "PackageIdentifier": "Betterbird.Betterbird"
+                },
+                {
+                    "PackageIdentifier": "Bitwarden.Bitwarden"
+                },
+                {
+                    "PackageIdentifier": "Helix.Helix"
+                },
+                {
+                    "PackageIdentifier": "9WZDNCRDXF41"
+                },
+                {
+                    "PackageIdentifier": "ajeetdsouza.zoxide"
+                },
+                {
+                    "PackageIdentifier": "amir1376.ABDownloadManager"
+                },
+                {
+                    "PackageIdentifier": "AstroComma.AstroGrep"
+                },
+                {
+                    "PackageIdentifier": "BleachBit.BleachBit"
+                },
+                {
+                    "PackageIdentifier": "BurntSushi.ripgrep.GNU"
+                },
+                {
+                    "PackageIdentifier": "DavidMoore.IPFilterUpdater"
+                },
+                {
+                    "PackageIdentifier": "DenoLand.Deno"
+                },
+                {
+                    "PackageIdentifier": "Dlang.DMD"
+                },
+                {
+                    "PackageIdentifier": "Dropbox.Dropbox"
+                },
+                {
+                    "PackageIdentifier": "erengy.Taiga"
+                },
+                {
+                    "PackageIdentifier": "eza-community.eza"
+                },
+                {
+                    "PackageIdentifier": "Fastfetch-cli.Fastfetch"
+                },
+                {
+                    "PackageIdentifier": "Git.GCM"
+                },
+                {
+                    "PackageIdentifier": "Git.Git"
+                },
+                {
+                    "PackageIdentifier": "GitHub.cli"
+                },
+                {
+                    "PackageIdentifier": "GnuPG.Gpg4win"
+                },
+                {
+                    "PackageIdentifier": "GoLang.Go"
+                },
+                {
+                    "PackageIdentifier": "Gyan.FFmpeg"
+                },
+                {
+                    "PackageIdentifier": "hluk.CopyQ"
+                },
+                {
+                    "PackageIdentifier": "HulubuluSoftware.AdvancedRenamer"
+                },
+                {
+                    "PackageIdentifier": "IDRIX.VeraCrypt"
+                },
+                {
+                    "PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
+                },
+                {
+                    "PackageIdentifier": "JesseDuffield.lazygit"
+                },
+                {
+                    "PackageIdentifier": "junegunn.fzf"
+                },
+                {
+                    "PackageIdentifier": "Klocman.BulkCrapUninstaller"
+                },
+                {
+                    "PackageIdentifier": "M2Team.NanaZip"
+                },
+                {
+                    "PackageIdentifier": "MartiCliment.UniGetUI"
+                },
+                {
+                    "PackageIdentifier": "MartinStorsjo.LLVM-MinGW.UCRT"
+                },
+                {
+                    "PackageIdentifier": "MediaArea.MediaInfo.GUI"
+                },
+                {
+                    "PackageIdentifier": "MediaArea.MediaInfo"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.PowerToys"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.Sysinternals.Suite"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.VisualStudioCode.Insiders"
+                },
+                {
+                    "PackageIdentifier": "moneymanagerex.moneymanagerex"
+                },
+                {
+                    "PackageIdentifier": "Nikkho.FileOptimizer"
+                },
+                {
+                    "PackageIdentifier": "Obsidian.Obsidian"
+                },
+                {
+                    "PackageIdentifier": "OlegShparber.Zeal"
+                },
+                {
+                    "PackageIdentifier": "PaulPacifico.ShutterEncoder"
+                },
+                {
+                    "PackageIdentifier": "Proton.ProtonVPN"
+                },
+                {
+                    "PackageIdentifier": "Python.PythonInstallManager"
+                },
+                {
+                    "PackageIdentifier": "qBittorrent.qBittorrent"
+                },
+                {
+                    "PackageIdentifier": "REALiX.HWiNFO"
+                },
+                {
+                    "PackageIdentifier": "ReincubateLtd.CamoStudio"
+                },
+                {
+                    "PackageIdentifier": "rsteube.Carapace"
+                },
+                {
+                    "PackageIdentifier": "Sandboxie.Plus"
+                },
+                {
+                    "PackageIdentifier": "Schniz.fnm"
+                },
+                {
+                    "PackageIdentifier": "sharkdp.bat"
+                },
+                {
+                    "PackageIdentifier": "sharkdp.hyperfine"
+                },
+                {
+                    "PackageIdentifier": "Spotify.Spotify"
+                },
+                {
+                    "PackageIdentifier": "VideoLAN.VLC"
+                },
+                {
+                    "PackageIdentifier": "voidtools.Everything"
+                },
+                {
+                    "PackageIdentifier": "WerWolv.ImHex"
+                },
+                {
+                    "PackageIdentifier": "WinMerge.WinMerge"
+                },
+                {
+                    "PackageIdentifier": "WinSCP.WinSCP"
+                },
+                {
+                    "PackageIdentifier": "WiresharkFoundation.Wireshark"
+                },
+                {
+                    "PackageIdentifier": "XAMPPRocky.Tokei"
+                },
+                {
+                    "PackageIdentifier": "XnSoft.XnViewMP"
+                },
+                {
+                    "PackageIdentifier": "yt-dlp.FFmpeg"
+                },
+                {
+                    "PackageIdentifier": "yt-dlp.yt-dlp"
+                },
+                {
+                    "PackageIdentifier": "horsicq.DIE-engine"
+                }
+            ],
+            "SourceDetails": {
+                "Argument": "https://cdn.winget.microsoft.com/cache",
+                "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+                "Name": "winget",
+                "Type": "Microsoft.PreIndexed.Package"
+            }
+        }
+    ],
+    "WinGetVersion": "1.11.400"
+}

@@ -1,0 +1,27 @@
+theme = "onedark"
+
+[editor]
+bufferline = "multiple"
+color-modes = true
+end-of-line-diagnostics = "hint"
+line-number = "relative"
+rulers = [80, 100]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+character = "┊"
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+
+[editor.statusline]
+center = ["file-encoding", "file-line-ending", "file-type"]
+right = ["position", "total-line-numbers", "diagnostics", "selections", "register"]
+
+[editor.lsp]
+display-inlay-hints = true

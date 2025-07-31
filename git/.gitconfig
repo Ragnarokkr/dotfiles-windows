@@ -1,0 +1,40 @@
+[init]
+    defaultBranch = master
+[credential]
+    helper =
+[color]
+    ui = true
+[color "diff-highlight"]
+    oldNormal = red bold
+    oldHighlight = yellow bold 52
+    newNormal = green bold
+    newHighlight = cyan bold 22
+[color "diff"]
+    meta = 11
+    frag = magenta bold
+    commit = cyan bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
+[commit]
+    gpgSign = true
+    template =
+[core]
+    editor = hx
+    excludesfile =
+    attributesfile =
+    whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+    untrackedCache = true
+[diff]
+    submodule = log
+[gpg]
+    program = 
+[push]
+    default = simple
+    followTags = true
+[status]
+    showUntrackedFiles = all
+[user]
+    email = 
+    name = 
+    signingKey =

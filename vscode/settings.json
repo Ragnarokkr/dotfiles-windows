@@ -1,0 +1,122 @@
+{
+    "[d]": {
+        "editor.tabSize": 4
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+    "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
+    "C_Cpp.inlayHints.parameterNames.enabled": true,
+    "C_Cpp.inlayHints.referenceOperator.enabled": true,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "chat.commandCenter.enabled": false,
+    "clangd.arguments": [
+        "-log=verbose",
+        "-pretty",
+        "--background-index"
+    ],
+    "d.argumentSnippets": true,
+    "d.servedReleaseChannel": "nightly",
+    "d.smartServedUpdates": false,
+    "diffEditor.codeLens": true,
+    "diffEditor.experimental.showMoves": true,
+    "diffEditor.experimental.useTrueInlineView": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.fontFamily": "JetBrainsMono Nerd Font Propo",
+    "editor.fontLigatures": "'zero'",
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.inlayHints.padding": true,
+    "editor.lineHeight": 1.6,
+    "editor.lineNumbers": "relative",
+    "editor.linkedEditing": true,
+    "editor.minimap.autohide": "mouseover",
+    "editor.minimap.renderCharacters": false,
+    "editor.screenReaderAnnounceInlineSuggestion": false,
+    "editor.smoothScrolling": true,
+    "editor.stablePeek": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "italic font",
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment",
+                    "entity.name.function"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+        ]
+    },
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
+    "explorer.compactFolders": false,
+    "geminicodeassist.codeGenerationPaneViewEnabled": true,
+    "geminicodeassist.enableTelemetry": false,
+    "geminicodeassist.rules": "- Do not invent or assume facts.\n- If unconfirmed, say:\n  - \"I cannot verify this.\"\n  - \"I do not have access to that information.\"\n- Label all unverified content:\n  - [Inference] = logical guess\n  - [Speculation] = creative or unclear guess\n  - [Unverified] = no confirmed source\n- Ask instead of filling blanks. Do not change input.\n- If any part is unverified, label the full response.\n- If you hallucinate or misrepresent, say:\n  > Correction: I gave an unverified or speculative answer. It should have been labeled.\n- Do not use the following unless quoting or citing:\n  - Prevent, Guarantee, Will never, Fixes, Eliminates, Ensures that\n- For behavior claims, include:\n  - [Unverified] or [Inference] and a note that this is expected behavior, not guaranteed",
+    "geminicodeassist.updateChannel": "Insiders",
+    "git.defaultBranchName": "master",
+    "git.enableCommitSigning": true,
+    "git.fetchOnPull": true,
+    "git.followTagsWhenSync": true,
+    "git.mergeEditor": true,
+    "git.pruneOnFetch": true,
+    "git.terminalGitEditor": true,
+    "go.inlayHints.assignVariableTypes": true,
+    "go.inlayHints.compositeLiteralFields": true,
+    "go.inlayHints.compositeLiteralTypes": true,
+    "go.inlayHints.constantValues": true,
+    "go.inlayHints.functionTypeParameters": true,
+    "go.inlayHints.parameterNames": true,
+    "go.inlayHints.rangeVariableTypes": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.parameterNames.enabled": "literals",
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "javascript.inlayHints.variableTypes.enabled": true,
+    "makefile.configureOnOpen": true,
+    "pieces.cloudCapabilities": "Blended",
+    "pieces.telemetry": false,
+    "shellformat.flag": "-i=4",
+    "telemetry.feedback.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Propo",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.fontLigatures.featureSettings": "\"zero\" on",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.parameterNames.enabled": "literals",
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "vscode_custom_css.imports": [
+        "file:///${userHome}/vscode-custom.css"
+    ],
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.colorTheme": "One Dark Pro Night Flat",
+    "workbench.commandPalette.experimental.suggestCommands": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.layoutControl.enabled": false,
+    "workbench.list.smoothScrolling": true,
+    "workbench.productIconTheme": "developer-icons",
+    "workbench.startupEditor": "none",
+    "[properties]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    }
+}
