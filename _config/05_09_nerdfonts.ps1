@@ -52,19 +52,31 @@ function Install-NerdFonts {
             return
         }
 
-        Write-LogInfo "Installing $($fontFiles.Count) font files..."
+        Write-LogInfo "Checking and installing up to $($fontFiles.Count) font files..."
         $shell = New-Object -ComObject Shell.Application
         $fontsFolder = $shell.Namespace(0x14) # 0x14 is the CSIDL for the Fonts folder
+        $systemFontsPath = Join-Path $env:windir 'Fonts'
+        $installedCount = 0
 
         foreach ($fontFile in $fontFiles) {
+            $destinationFontPath = Join-Path $systemFontsPath $fontFile.Name
+            if (Test-Path -Path $destinationFontPath -PathType Leaf) {
+                # Font already exists, skip it.
+                continue
+            }
             # The CopyHere method is asynchronous. Use flags for a silent install (4=No progress, 16=Yes to all).
             $fontsFolder.CopyHere($fontFile.FullName, 20)
+            $installedCount++
         }
 
-        Write-LogInfo "Font installation commands issued. Waiting for async operations to complete..."
-        Start-Sleep -Seconds 15 # Give Windows time to process the font installations before cleanup.
-
-        Write-LogInfo "Font installation process completed."
+        if ($installedCount -gt 0) {
+            Write-LogInfo "Issued installation for $installedCount new font(s). Waiting for async operations to complete..."
+            Start-Sleep -Seconds 15 # Give Windows time to process the font installations before cleanup.
+            Write-LogInfo "Font installation process completed."
+        }
+        else {
+            Write-LogInfo "All fonts were already installed. No new fonts were added."
+        }
         Write-LogNote "Nerd Fonts should now be available. A reboot may be required for them to appear in all applications."
     }
     catch {
