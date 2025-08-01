@@ -43,10 +43,10 @@ $GEMINI_API_KEY="YourGeminiApiKey"
 > To persist these settings across sessions, add those exports to a file that’s sourced by your shell at startup. For example, you could create a file named `$env:HOME/private.ps1`:
 >
 > ```powershell
-> [Environment]::SetEnvironmentVariable("GIT_NAME", "Your Name", "User")
-> [Environment]::SetEnvironmentVariable("GIT_EMAIL", "your.email@example.com", "User")
-> [Environment]::SetEnvironmentVariable("GIT_SIGNING_KEY", "YourGpgKeyId", "User")
-> [Environment]::SetEnvironmentVariable("GEMINI_API_KEY", "YourGeminiApiKey", "User")
+> [System.Environment]::SetEnvironmentVariable("GIT_NAME", "Your Name", [System.EnvironmentVariableTarget]::User)
+> [System.Environment]::SetEnvironmentVariable("GIT_EMAIL", "your.email@example.com", [System.EnvironmentVariableTarget]::User)
+> [System.Environment]::SetEnvironmentVariable("GIT_SIGNING_KEY", "YourGpgKeyId", [System.EnvironmentVariableTarget]::User)
+> [System.Environment]::SetEnvironmentVariable("GEMINI_API_KEY", "YourGeminiApiKey", [System.EnvironmentVariableTarget]::User)
 > ```
 >
 > Then source it from your main shell startup file:
