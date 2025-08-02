@@ -68,6 +68,9 @@
                     "PackageIdentifier": "Fastfetch-cli.Fastfetch"
                 },
                 {
+                    "PackageIdentifier": "FiloSottile.age"
+                },
+                {
                     "PackageIdentifier": "Git.GCM"
                 },
                 {
