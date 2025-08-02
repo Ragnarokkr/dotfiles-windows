@@ -122,6 +122,9 @@
                     "PackageIdentifier": "MartinStorsjo.LLVM-MinGW.UCRT"
                 },
                 {
+                    "PackageIdentifier": "MathiasSvensson.MultiCommander"
+                },
+                {
                     "PackageIdentifier": "MediaArea.MediaInfo.GUI"
                 },
                 {
