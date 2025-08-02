@@ -44,7 +44,7 @@
                     "PackageIdentifier": "BleachBit.BleachBit"
                 },
                 {
-                    "PackageIdentifier": "BurntSushi.ripgrep.GNU"
+                    "PackageIdentifier": "BurntSushi.ripgrep.MSVC"
                 },
                 {
                     "PackageIdentifier": "DavidMoore.IPFilterUpdater"
@@ -177,6 +177,9 @@
                 },
                 {
                     "PackageIdentifier": "sharkdp.bat"
+                },
+                {
+                    "PackageIdentifier": "sharkdp.fd"
                 },
                 {
                     "PackageIdentifier": "sharkdp.hyperfine"
