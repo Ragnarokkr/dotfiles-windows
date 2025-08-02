@@ -104,6 +104,9 @@
                     "PackageIdentifier": "JesseDuffield.lazygit"
                 },
                 {
+                    "PackageIdentifier": "jqlang.jq"
+                },
+                {
                     "PackageIdentifier": "junegunn.fzf"
                 },
                 {
