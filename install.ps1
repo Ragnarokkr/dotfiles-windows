@@ -106,3 +106,7 @@ function Invoke-Setup {
 Search-Git
 Get-Repo
 Invoke-Setup
+
+[System.Environment]::SetEnvironmentVariable('DOTFILES_PATH', $dotfilesDir, [System.EnvironmentVariableTarget]::User)
+Write-Host "Your dotfiles repo is stored at: DOTFILES_PATH=$env:DOTFILES_PATH"
+Write-Host "To update, cd into it and run: git fetch --prune origin && git merge origin/master"
