@@ -12,18 +12,21 @@ This configuration installs and sets up a suite of tools to enhance the Windows 
   Custom Windows Terminal [Material-inspired](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/windowsterminal/MaterialDark.json) color scheme.
 - **Development**  
   Git, Helix (text editor), VSCode Insider, D, Go, Node.js, Deno, and more.
-  For a complete list of packages, see the [packages](_config/winget-packages.json) and [programs](_config/program-installers.json) scripts.
+- **Security**
+  Gpg, Gpg4Win, Age, Bitwarden, and more.
 - **Customization**
   - Various wallpapers I liked from the internet.
   - A customized [Numix-inspired](https://www.deviantart.com/cworldmaster/art/coolCursorCombov2-930861793) cursors theme.
   - [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip) for terminal and code editors.
+
+For a complete list of packages, see the [packages](_config/winget-packages.json) and [programs](_config/program-installers.json) scripts.
 
 ## Prerequisites
 
 - Windows 10 or 11.
 - Windows Terminal installed.
 - PowerShell 7.5+ installed.
-- `git` installed.
+- `git` and `age` installed.
 
 ## Installation
 
