@@ -86,6 +86,9 @@
                     "PackageIdentifier": "GoLang.Go"
                 },
                 {
+                    "PackageIdentifier": "GolangCI.golangci-lint"
+                },
+                {
                     "PackageIdentifier": "Gyan.FFmpeg"
                 },
                 {
