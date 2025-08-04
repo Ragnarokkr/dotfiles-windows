@@ -69,3 +69,47 @@ irm https://raw.githubusercontent.com/Ragnarokkr/dotfiles-windows/refs/heads/mas
 ```
 
 The script will guide you through the remaining setup steps. Once complete, restart your terminal to load the new configuration. Enjoy your new environment!
+
+## Maintainance
+
+### Sync Local Repository Files from Remote
+
+Go to the local dotfiles directory (`$env:DOTFILES_PATH`) and run:
+
+```powershell
+git pull origin master
+```
+
+or
+
+```powershell
+git fetch origin --prune
+git reset --hard origin/master
+```
+
+### Sync Local Repository Files from System
+
+When you update system configuration files (such as your PowerShell profile or Windows Terminal settings) and want to keep your dotfiles repository in sync, follow these steps:
+
+1. **Manual Copy (Not Recommended at Scale)**  
+   For a single file, you could run a command like:
+
+   ```powershell
+   Copy-Item "$env:APPDATA\Code - Insiders\User\settings.json" "vscode\settings.json"
+   ```
+
+   However, as the number of files grows, this approach quickly becomes tedious.
+
+2. **Automated Sync with [`resync.ps1`](resync.ps1)**  
+   To streamline the process, I've added a CLI tool. From within the root of your dotfiles repository, run:
+
+   ```powershell
+   .\resync.ps1
+   ```
+
+   This script will:
+   - Compare the files on your system against the listings in [`_config/dotfiles-db.ps1`](_config/dotfiles-db.ps1) by hashing their contents.
+   - Automatically copy any changed or new files into the appropriate repository paths.
+
+3. **Finalize Your Changes**  
+   After running the sync script remember to commit and push your changes.
