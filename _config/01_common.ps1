@@ -87,6 +87,12 @@ function Write-LogError {
     _Write-Log -Message $Message -Level 'ERROR'
 }
 
+<#
+.SYNOPSIS
+    Writes a formatted note message to the console.
+.PARAMETER Message
+    The note message to display.
+#>
 function Write-LogNote {
     [CmdletBinding()]
     param(
