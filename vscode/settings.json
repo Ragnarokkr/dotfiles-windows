@@ -11,6 +11,9 @@
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
+    "[properties]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
     "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
     "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
     "C_Cpp.inlayHints.parameterNames.enabled": true,
@@ -58,7 +61,7 @@
                 "settings": {
                     "fontStyle": "italic"
                 }
-            },
+            }
         ]
     },
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
@@ -74,6 +77,14 @@
     "git.mergeEditor": true,
     "git.pruneOnFetch": true,
     "git.terminalGitEditor": true,
+    "go.alternateTools": {
+        "customFormatter": "golangci-lint-v2"
+    },
+    "go.formatFlags": [
+        "fmt",
+        "--stdin"
+    ],
+    "go.formatTool": "custom",
     "go.inlayHints.assignVariableTypes": true,
     "go.inlayHints.compositeLiteralFields": true,
     "go.inlayHints.compositeLiteralTypes": true,
@@ -81,14 +92,17 @@
     "go.inlayHints.functionTypeParameters": true,
     "go.inlayHints.parameterNames": true,
     "go.inlayHints.rangeVariableTypes": true,
+    "go.lintFlags": [
+        "--path-mode=abs",
+        "--fast-only"
+    ],
+    "go.lintTool": "golangci-lint-v2",
     "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
     "javascript.inlayHints.parameterNames.enabled": "literals",
     "javascript.inlayHints.parameterTypes.enabled": true,
     "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
     "javascript.inlayHints.variableTypes.enabled": true,
     "makefile.configureOnOpen": true,
-    "pieces.cloudCapabilities": "Blended",
-    "pieces.telemetry": false,
     "shellformat.flag": "-i=4",
     "telemetry.feedback.enabled": false,
     "telemetry.telemetryLevel": "off",
@@ -107,6 +121,7 @@
     "vscode_custom_css.imports": [
         "file:///${userHome}/vscode-custom.css"
     ],
+    "vsicons.dontShowNewVersionMessage": true,
     "window.commandCenter": false,
     "window.menuBarVisibility": "compact",
     "workbench.colorTheme": "One Dark Pro Night Flat",
@@ -115,8 +130,5 @@
     "workbench.layoutControl.enabled": false,
     "workbench.list.smoothScrolling": true,
     "workbench.productIconTheme": "developer-icons",
-    "workbench.startupEditor": "none",
-    "[properties]": {
-        "editor.defaultFormatter": "foxundermoon.shell-format"
-    }
+    "workbench.startupEditor": "none"
 }
