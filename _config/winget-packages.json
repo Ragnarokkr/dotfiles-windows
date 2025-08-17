@@ -173,6 +173,9 @@
                     "PackageIdentifier": "ReincubateLtd.CamoStudio"
                 },
                 {
+                    "PackageIdentifier": "Rizin.Cutter"
+                },
+                {
                     "PackageIdentifier": "rsteube.Carapace"
                 },
                 {
@@ -198,10 +201,7 @@
                 },
                 {
                     "PackageIdentifier": "voidtools.Everything"
-                },
-                {
-                    "PackageIdentifier": "WerWolv.ImHex"
-                },
+                },                
                 {
                     "PackageIdentifier": "WinMerge.WinMerge"
                 },
