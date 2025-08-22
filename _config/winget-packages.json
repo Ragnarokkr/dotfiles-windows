@@ -50,6 +50,9 @@
                     "PackageIdentifier": "DavidMoore.IPFilterUpdater"
                 },
                 {
+                    "PackageIdentifier": "dandavison.delta"
+                },
+                {
                     "PackageIdentifier": "DenoLand.Deno"
                 },
                 {
@@ -105,6 +108,9 @@
                 },
                 {
                     "PackageIdentifier": "JesseDuffield.lazygit"
+                },
+                {
+                    "PackageIdentifier": "jftuga.less"
                 },
                 {
                     "PackageIdentifier": "jqlang.jq"
@@ -201,7 +207,7 @@
                 },
                 {
                     "PackageIdentifier": "voidtools.Everything"
-                },                
+                },
                 {
                     "PackageIdentifier": "WinMerge.WinMerge"
                 },
