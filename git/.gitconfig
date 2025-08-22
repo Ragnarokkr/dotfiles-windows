@@ -1,7 +1,7 @@
 [init]
     defaultBranch = master
 [credential]
-    helper =
+    helper = 
 [color]
     ui = true
 [color "diff-highlight"]
@@ -18,23 +18,31 @@
     whitespace = red reverse
 [commit]
     gpgSign = true
-    template =
+    template = 
 [core]
+    pager = delta
     editor = hx
-    excludesfile =
-    attributesfile =
+    excludesfile = 
+    attributesfile = 
     whitespace = space-before-tab,-indent-with-non-tab,trailing-space
     untrackedCache = true
+[delta]
+    navigate = true
+    dark = true
 [diff]
     submodule = log
 [gpg]
-    program = 
+    program =
+[interactive]
+    diffFilter = delta --color-only
+[merge]
+    conflictStyle = zdiff3
 [push]
     default = simple
     followTags = true
 [status]
     showUntrackedFiles = all
 [user]
-    email = 
-    name = 
-    signingKey =
+    email =
+    name =
+    signingKey = 
